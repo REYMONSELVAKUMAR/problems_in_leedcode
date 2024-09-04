@@ -12,11 +12,11 @@ class Solution {
             if(a>b){
                 a1.add(nums[i]);
                 nums[c++]=nums[i];
-                System.out.println(a1);
+                
             }
             else{
                  b1.add(nums[i]);
-                 System.out.println(b1);
+                
             }
         }
         for(int d=0;c<nums.length;d++){
