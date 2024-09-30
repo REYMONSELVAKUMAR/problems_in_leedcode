@@ -23,7 +23,7 @@ class CustomStack {
         if (k <= p)
             for (int i = 0; i < k; i++)
                 arr[i] += val;
-        else if(p==0)arr[0] += val;
+        
         else {
             for (int i = 0; i <= p; i++)
                 arr[i] += val;
