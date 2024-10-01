@@ -18,7 +18,7 @@ class Solution {
         StringBuilder sb= new StringBuilder();
         for(int rw=0;rw<numRows;rw++){
            for(int cw=0;cw<=col;cw++){
-            if(ans[rw][cw]!='\u0000')sb.append(ans[rw][cw]);
+            if(ans[rw][cw]!='\\u0000')sb.append(ans[rw][cw]);
            }
         }
         return sb.toString();
